@@ -32,6 +32,3 @@ def upload_file():
         return f"File {filename} uploaded successfully!"
     else:
         return "File type not allowed", 400
-
-if __name__ == '__main__':
-    app.run(debug=True)
