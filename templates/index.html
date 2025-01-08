@@ -30,6 +30,13 @@
             text-decoration: none;
             font-size: 1rem;
         }
+        gif {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+            text-align: center;
+        }
         main {
             padding: 2rem;
             max-width: 800px;
@@ -49,15 +56,26 @@
 </head>
 <body>
     <header>
-        <h1>TBD Competition</h1>
+        <pre>
+            ████████╗██████╗ ██████╗      ██████╗ ██████╗ ███╗   ███╗██████╗ ███████╗████████╗██╗████████╗██╗ ██████╗ ███╗   ██╗
+            ╚══██╔══╝██╔══██╗██╔══██╗    ██╔════╝██╔═══██╗████╗ ████║██╔══██╗██╔════╝╚══██╔══╝██║╚══██╔══╝██║██╔═══██╗████╗  ██║
+               ██║   ██████╔╝██║  ██║    ██║     ██║   ██║██╔████╔██║██████╔╝█████╗     ██║   ██║   ██║   ██║██║   ██║██╔██╗ ██║
+               ██║   ██╔══██╗██║  ██║    ██║     ██║   ██║██║╚██╔╝██║██╔═══╝ ██╔══╝     ██║   ██║   ██║   ██║██║   ██║██║╚██╗██║
+               ██║   ██████╔╝██████╔╝    ╚██████╗╚██████╔╝██║ ╚═╝ ██║██║     ███████╗   ██║   ██║   ██║   ██║╚██████╔╝██║ ╚████║
+               ╚═╝   ╚═════╝ ╚═════╝      ╚═════╝ ╚═════╝ ╚═╝     ╚═╝╚═╝     ╚══════╝   ╚═╝   ╚═╝   ╚═╝   ╚═╝ ╚═════╝ ╚═╝  ╚═══╝
+                                                                                                                                </pre>
     </header>
 
     <nav>
         <a href="#upload">File Upload</a>
         <a href="#resources">Resources</a>
     </nav>
-
     <main>
+        <section id = "Welcome">
+            <div style="width:100%;height:0;padding-bottom:56%;position:relative;"><iframe src="https://giphy.com/embed/ZVik7pBtu9dNS" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div>
+            <h2>Welcome to the 2025 TBD Hackathon!</h2>
+            <p>Are you ready to show off your skills and win some cool prizes? This is the place to do it! Submit your code below.</p>
+        </section>
         <section id="upload">
             <h2>Submit Your Project</h2>
             <form action="/upload" method="post" enctype="multipart/form-data">
